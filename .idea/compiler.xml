@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flink-common" />
         <module name="flink-data-sources" />
+        <module name="flink-examples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flink-common" target="1.8" />
       <module name="flink-data-sources" target="1.5" />
       <module name="flink-demo" target="1.5" />
+      <module name="flink-examples" target="1.5" />
       <module name="flink-task" target="1.5" />
     </bytecodeTargetLevel>
   </component>

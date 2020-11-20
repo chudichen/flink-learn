@@ -24,7 +24,6 @@ object ScheduleApp {
     val parameterTool = ExecutionEnvUtil.createParameterTool(args)
     val env = ExecutionEnvUtil.prepare(parameterTool)
 
-    val source = KafkaConfigUtil
   }
 
   class GetRulesJob extends Runnable {
