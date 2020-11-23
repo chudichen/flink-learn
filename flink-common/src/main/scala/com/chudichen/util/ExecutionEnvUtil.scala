@@ -12,6 +12,8 @@ import org.apache.flink.streaming.api.TimeCharacteristic
  */
 object ExecutionEnvUtil {
 
+  val PARAMETER_TOOL: ParameterTool = createParameterTool()
+
   def createParameterTool(args: Array[String]): ParameterTool = {
     ParameterTool.fromPropertiesFile(ExecutionEnvUtil.getClass.getResourceAsStream(PropertiesConstants.PROPERTIES_FILE_NAME))
       .mergeWith(ParameterTool.fromArgs(args))
