@@ -3,7 +3,6 @@ package com.chudichen.common.util
 import java.util.Properties
 
 import com.chudichen.common.constant.PropertiesConstants
-import com.chudichen.constant.PropertiesConstants
 import org.apache.flink.api.java.utils.ParameterTool
 
 /**

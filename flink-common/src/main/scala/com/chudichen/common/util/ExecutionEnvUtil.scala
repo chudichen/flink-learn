@@ -3,7 +3,6 @@ package com.chudichen.common.util
 import com.chudichen.common.constant.PropertiesConstants
 import org.apache.flink.api.java.utils.ParameterTool
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
-import com.chudichen.constant.PropertiesConstants
 import org.apache.flink.api.common.restartstrategy.RestartStrategies
 import org.apache.flink.streaming.api.TimeCharacteristic
 

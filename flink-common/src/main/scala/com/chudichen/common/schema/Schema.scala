@@ -1,7 +1,6 @@
 package com.chudichen.common.schema
 
 import com.chudichen.common.model.MetricEvent
-import com.chudichen.model.MetricEvent
 import org.apache.flink.api.common.serialization.{DeserializationSchema, SerializationSchema}
 
 /**
