@@ -91,6 +91,11 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.25</version>
         </dependency>
+        <dependency>
+            <groupId>org.json4s</groupId>
+            <artifactId>json4s-jackson_2.11</artifactId>
+            <version>3.7.0-M7</version>
+        </dependency>
     </dependencies>
 
     <profiles>

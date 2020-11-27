@@ -38,7 +38,7 @@ object ExecutionEnvUtil {
       ParameterTool.fromPropertiesFile(ExecutionEnvUtil.getClass.getResourceAsStream(PropertiesConstants.PROPERTIES_FILE_NAME))
         .mergeWith(ParameterTool.fromSystemProperties())
     } catch {
-      case e:Exception => e.printStackTrace()
+      case _:Exception =>
     }
     ParameterTool.fromSystemProperties()
   }
