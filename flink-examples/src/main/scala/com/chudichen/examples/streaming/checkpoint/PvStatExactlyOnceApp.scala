@@ -60,6 +60,11 @@ object PvStatExactlyOnceApp {
       .setStartFromLatest()
     env.addSource(appKafkaConsumer)
       .flatMap(new LocalKeyByFlatMap(10))
+      // 按照appId进行keyBy
+      .map(new CalculatePvFunction)
+      .print()
+
+    env.execute("Flink pv stat localKeyBy")
   }
 
   /**
